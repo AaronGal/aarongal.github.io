@@ -1,0 +1,47 @@
+p{
+    color:green;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+ul{
+    list-style-position:inside;
+    text-align: center;
+}
+
+body{
+    background-color: #e25561; 
+    text-align: center;
+    margin:0px;
+}
+#header, #main, #footer{
+	display:flex;
+}
+#main{
+	min-height:600px;
+	font-size:125%;
+    background-color: #f7c5cc;
+    flex:3;
+    text-align: center;
+}
+#name{
+    margin:25px;
+    align-items: left;
+}
+#header1{
+    flex:2;	
+	text-align:center;	
+}
+#header2{
+    display:flex;
+	flex:10;	
+	align-items:center;	
+}
+.link{
+	flex:3;
+	text-align:center;
+    font-size: 200%;	
+}
+.foot{
+	flex:3;
+	text-align:center;
+    font-size: 150%;
+}
